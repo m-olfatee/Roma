@@ -1,0 +1,268 @@
+@font-face{
+    font-family: SANTIO;
+    src: url(fonts/Santio\ Black.ttf);
+    src: url(fonts/Santio\ Bold.ttf);
+    src: url(fonts/Santio\ Boldline.ttf);
+    src: url(fonts/Santio\ Inline.ttf);
+    src: url(fonts/Santio\ light.ttf);
+    src: url(fonts/Santio\ regular.ttf);
+
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.section-first {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) , url(../img/cleo-topper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: fit-content;
+  
+}
+
+    
+.link-take-action .svg-heart  {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin-right: 20px;
+    background: url(../img/heart.svg) center/cover no-repeat;
+}
+.link-take-action .svg-heart:hover {
+    height: 13px;
+    width: 13px;
+}
+
+.link-take-action {
+    display: block;
+    text-align: right;
+    text-decoration: underline rgb(214, 185, 124);
+    color: whitesmoke;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 2% 3% 5% 0;
+    
+}
+
+.section-headline-first {
+    font-family: SANTIO;    
+    font-size: 6em;
+    font-weight: bold;
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 0;
+    color: rgb(239, 239, 239);
+
+}
+
+.link-scroll {
+    display: inline-block;
+    font-family: 'Mr Dafoe', cursive;
+    color: rgb(236, 192, 0);
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: 0 5%;
+    padding-right: 5%;
+
+}
+.link-scroll:hover {
+    color: pink;
+}
+.link-scroll span {
+    padding-left: 15px;
+    position: absolute;
+    font-family: 'Mr Dafoe', cursive;
+    color: rgb(236, 192, 0);
+    transform: rotate(90deg);    
+}
+.section-second {
+    height: 80vh;
+    margin: 20% 25% 0% 10%;
+}
+.paragraph-first {
+    font-family: SANTIO;
+    font-size: 2.6em;
+    color: rgb(73, 197, 162);
+}
+.paragraph-first span {
+    background-color: rgb(41, 39, 42);
+    color: white;
+}
+.section-third {
+    height: fit-content;
+    margin: 20% 20% 0 20%;
+}
+.article-first {
+    height: fit-content;
+    width: 100%;
+    background-image: url(../img/stat-workers-color.svg);
+    background-position: left top;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    
+}
+.article-first h3{
+    padding-top: 35%;
+    font-family: SANTIO;
+    color: rgb(236, 192, 0);
+    font-size: 8em;
+    margin-bottom: 0;
+
+}
+.article-first p{
+    font-family: SANTIO;
+    color: rgb(236, 192, 0);
+    font-size: 3em;
+
+}
+.article-first p span{
+    background-color: rgb(41, 39, 42);
+    color: white;
+
+}
+.article-second {
+    margin-top: 30%;
+    height: fit-content;
+    width: 100%;
+    background-image: url(../img/stat-pay-color.svg);
+    background-position: left top;
+    background-size: 30%;
+    background-repeat: no-repeat;    
+    padding-bottom: 3%;
+
+    
+}
+.article-second h3{
+    
+    font-family: SANTIO;
+    color: rgb(213, 138, 183);
+    font-size: 8em;
+    margin-top: 0;
+
+}
+.article-second p{
+    padding-top: 35%;
+    font-family: SANTIO;
+    color: rgb(213, 138, 183);
+    font-size: 3em;
+
+}
+.article-second p span{
+    background-color: rgb(41, 39, 42);
+    color: white;
+
+}
+
+.article-third {
+    height: fit-content;
+    width: 100%;
+    background-image: url(../img/stat-health-color.svg);
+    background-position: left top;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    
+}
+.article-third h3{
+    padding-top: 35%;
+    font-family: SANTIO;
+    color: rgb(73, 198, 163);
+    font-size: 8em;
+    margin-bottom: 0;
+
+}
+.article-third p{
+    font-family: SANTIO;
+    color: rgb(73, 198, 163);
+    font-size: 3em;
+
+}
+.article-third p span{
+    background-color: rgb(41, 39, 42);
+    color: white;
+
+}
+
+
+.article-fourth {
+    height: fit-content;
+    width: 100%;
+    padding-top: 20%;
+    padding-left: 10%;
+    font-family: SANTIO;
+    color: rgb(114, 183, 230);
+    font-size: 2.5em;
+}
+.article-fourth p span{
+    background-color: rgb(41, 39, 42);
+    color: white;
+}
+
+.section-fourth {
+    height: 130vh;
+    background-image: url(../img/kid.png) , url(../img/see.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.section-fifth {
+    background-color: black;
+    height: 150vh;
+
+
+}
+
+.section-fifth h2 {
+    padding-top: 30%;
+    margin-top: 0;
+    font-family: SANTIO;    
+    font-size: 6em;
+    font-weight: bold;
+    width: 50%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    color: rgb(239, 239, 239);
+
+}
+
+.section-fifth a {
+    text-decoration: none;
+    font-family: SANTIO;    
+    font-size: 1.5em;
+    padding: 2% 5%;
+    margin: 5% 0 5% 7%;
+
+    color: rgb(239, 239, 239);
+    border: 2px solid white;
+
+}
+.section-fifth a:hover {
+    transition: 0.7s;
+    box-shadow: 3px 3px 3px white;
+}
+
+#footer {
+    padding-top: 15%;
+    padding-bottom: 3%;
+    background: #000;
+    text-align: center;
+}
+#footer p{
+    margin: 0;
+    color: white;
+
+}
+#footer a {
+    color: rgb(73, 198, 163);
+    text-decoration: none;
+
+}
+
+
